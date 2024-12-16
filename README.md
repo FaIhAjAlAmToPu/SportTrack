@@ -19,3 +19,9 @@ https://www.kaggle.com/datasets/ayushspai/sportsmot
 soccer, basketball, and handball games
 multi view tracking
 https://www.kaggle.com/datasets/atomscott/teamtrack
+
+
+### Approach'
+* no multi view for now
+* first training on sportsMOT for generalizing on players
+* then on ball and goalkeeper and referee **or maybe not**
