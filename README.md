@@ -21,7 +21,17 @@ multi view tracking
 https://www.kaggle.com/datasets/atomscott/teamtrack
 
 
-### Approach'
-* no multi view for now
-* first training on sportsMOT for generalizing on players
-* then on ball and goalkeeper and referee **or maybe not**
+### Approach
+* Step 1: Initial Training
+Train a YOLO model on football players and balls.
+
+* Step 2: Prepare Mixed Player Data
+Use a dataset containing basketball, volleyball, and football players without ball annotations.
+
+* Step 3: Freezing Layers
+Freeze the layers responsible for detecting footballs and players.
+Train the unfrozen layers with mixed player data to generalize across all sports.
+
+* Step 4: Validate
+Test on football to confirm detection quality.
+Evaluate on basketball and volleyball players for generalization.
