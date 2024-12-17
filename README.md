@@ -52,6 +52,12 @@ Metrics at 2nd and 3rd dataset:
 | Player     | 0.96357       | 0.97938    | 0.97141  | 0.98788 |
 
 
+Metric of first test after training in all datasets:
+| Metric        | Precision  | Recall     | F1 Score   | mAP@0.5   |
+|---------------|------------|------------|------------|-----------|
+| Ball (Class 0) | 0.45094    | 0.29204    | 0.35450    | 0.20988   |
+| Player (Class 1) | 0.88628    | 0.82558    | 0.85485    | 0.87965   |
+
 Tracking video:
 
 ![Demo](assets/demo.gif)
