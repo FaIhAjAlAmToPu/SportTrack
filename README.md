@@ -37,6 +37,7 @@ Test on football to confirm detection quality.
 Evaluate on basketball and volleyball players for generalization.
 
 
+Metrics at first dataset:
 | Class      | Precision (P) | Recall (R) | F1-Score | mAP50 |
 |------------|---------------|------------|----------|-------|
 | Ball       | 0.88976       | 0.49999    | 0.64022  | 0.6127|
@@ -44,8 +45,13 @@ Evaluate on basketball and volleyball players for generalization.
 | Referee    | 0.88898       | 0.85957    | 0.87403  | 0.9232|
 
 
+Metrics at 2nd and 3rd dataset:
+| Class      | Precision (P) | Recall (R) | F1-Score | mAP50 |
+|------------|---------------|------------|----------|-------|
+| Ball       | 0.91025       | 0.77554    | 0.83751  | 0.83682 |
+| Player     | 0.96357       | 0.97938    | 0.97141  | 0.98788 |
 
-<video controls>
-  <source src="assets/sports_byte.mp4" type="video/mp4">
 
-</video>
+Tracking video:
+
+![Demo](assets/demo.gif)
