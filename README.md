@@ -69,3 +69,7 @@ result using WBF
 
 ![Alt Text](assets/WBF.jpg)
 
+result modified
+
+![Alt Text](assets/WBF_improved.jpg)
+
