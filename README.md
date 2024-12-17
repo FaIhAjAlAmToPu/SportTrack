@@ -42,3 +42,10 @@ Evaluate on basketball and volleyball players for generalization.
 | Ball       | 0.88976       | 0.49999    | 0.64022  | 0.6127|
 | Player     | 0.94752       | 0.96777    | 0.95754  | 0.9694|
 | Referee    | 0.88898       | 0.85957    | 0.87403  | 0.9232|
+
+
+
+<video controls>
+  <source src="assets/.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
