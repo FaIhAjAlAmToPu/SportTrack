@@ -35,3 +35,10 @@ Train the unfrozen layers with mixed player data to generalize across all sports
 * Step 4: Validate
 Test on football to confirm detection quality.
 Evaluate on basketball and volleyball players for generalization.
+
+
+| Class      | Precision (P) | Recall (R) | F1-Score | mAP50 | mAP50-95 |
+|------------|---------------|------------|----------|-------|----------|
+| Ball       | 0.88976       | 0.49999    | 0.64022  | 0.6127| 0.0013976|
+| Player     | 0.94752       | 0.96777    | 0.95754  | 0.9694| 0.017797 |
+| Referee    | 0.88898       | 0.85957    | 0.87403  | 0.9232| 0.0052095|
