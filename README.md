@@ -65,6 +65,10 @@ sample image of 2nd model
 
 ![Alt Text](assets/image2.jpg)
 
+WBF diagram:
+
+![Alt Text](assets/wbs_diag.jpg)
+
 result using WBF
 
 ![Alt Text](assets/WBF.jpg)
