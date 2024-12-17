@@ -46,6 +46,6 @@ Evaluate on basketball and volleyball players for generalization.
 
 
 <video controls>
-  <source src="assets/.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="assets/sports_byte.mp4" type="video/mp4">
+
 </video>
